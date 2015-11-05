@@ -1,3 +1,449 @@
+
+@media screen  and  (max-width:599px) {
+
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body {
+        background: url(tonbouy.jpg) no-repeat fixed;
+        font-family: 'Dosis', sans-serif;
+        box-align: center;
+        font-size: 55%
+}
+
+h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 10em;
+}
+
+h1 {
+        text-align: center;
+        font-size: 8em;
+}
+
+article p {
+        text-align: center;
+        padding: 0.5%;
+        font-size: 4em;
+}
+
+
+nav ul {
+        text-align: center;
+        font-size: 0.6em;
+}
+
+nav ul li {
+        display: inline-block;
+        text-decoration: none;
+}
+
+nav a {
+        text-decoration: none;
+        font-size: 6em;
+        font-weight: bold;
+        color: black;
+        margin: 15px;
+        border-radius: 5px 5px 5px 5px;
+}
+section h2 {
+        margin-left: 7%;
+        font-size: 4em;
+}
+section h4 {
+        text-align: center;
+        font-size: 3em;
+}
+
+section p {
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-left:10%; margin-right: 10%;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px solid black;
+        padding: 4%;
+        font-size: 4em;
+}
+
+.raccourcis a {
+        text-decoration: none;
+        margin: 0 auto;
+        color: #aa3939;
+        font-weight: bold;
+        font-size: 4em;
+
+}
+
+.body {
+        background-color: rgba(255, 255, 255, .25);
+        border-radius: 10px 10px 10px 10px;
+}
+
+.header {
+        border-radius: 15px 0 0 15px;
+        background-color: rgba(255, 255, 255, 0.25);
+}
+
+.info img {
+        float: right;
+        display: block;
+        margin: 1%;
+        border-radius: 3px 3px 3px 3px;
+        filter: sepia(1);
+        -webkit-filter: sepia(1);
+        -moz-filter: sepia(1);
+        -o-filter: sepia(1);
+        cursor: pointer;
+        -ms-filter: sepia(1);
+}
+
+.info img:hover {
+        filter: sepia(0);
+        -webkit-filter: sepia(0);
+        -moz-filter: sepia(0);
+        -o-filter: sepia(0);
+        -ms-filter: sepia(0);
+}
+
+#searchbar {
+        font-size: 2.5em;
+        position:relative;
+        width:auto;
+        height:auto;
+        float: right;
+}
+#searchbar .champ {
+        width: 80%;
+        font-size: 0.7em;
+}
+
+#searchbar.text {
+        width:auto;
+        height: auto;
+}
+
+#searchbar.champ {
+        width:auto;
+        height:auto;
+}
+
+#searchbar.bouton {
+        width:35px;
+        height:35px;
+        padding:0;
+        border:none;
+}
+
+div #img1 {
+        width: 21%;
+}
+#img1 {
+        text-align: center;
+        margin-left: 35%;
+}
+
+.block {
+        width: 0 auto;
+        position: fixed;
+        background-color: rgba(255, 255, 255, .3);
+        border-radius: 0 10px 10px 10px;
+}
+
+.block div {
+        display: inline-flex;
+        padding: 0 auto;
+        margin: 0 auto;
+}
+
+.menu .haut {
+        width: 0 auto;
+        position: fixed;
+        background-color: rgba(255, 255, 255, .3 );
+        border-radius: 15px 0 0 0;
+}
+
+.menu .haut:hover div{
+        left:auto;opacity:1;width:20%;;
+        transition:1s left,1s width,1s opacity;
+        padding-bottom: 2%;
+}
+.menu .haut div{
+        left:auto;opacity:0;width:15%;
+        transition:1s left,1s width,1s opacity;
+        padding-bottom: 2%;
+        text-align: center;
+}
+
+.menu .haut a:hover{
+        list-style : none;
+}
+
+.menu a {
+        list-style : none;
+        text-decoration: none;
+        font-family: 'Dosis', sans-serif;
+        color: black;
+        font-weight: bold;
+        font-size: 4em;
+}
+
+.menu h3 {
+        font-family: 'Dosis', sans-serif;
+        color: black;
+}
+
+.2nd header {
+        margin: 0 auto;
+        width: 100px;
+}
+
+.fleche {
+        position: fixed;
+        margin-top: 22%;
+        margin-left: 90%;
+        background-color: rgba(255, 255, 255, .3 );
+        border-radius: 50% 50% 50% 50%;
+        max-width:7%;
+        max-height:8%;
+}
+
+#copyright{
+        color: black;
+        margin-left: 5.52%;
+        margin-bottom : 10px;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Dosis', sans-serif;
+        padding-top: 2%;
+}
+
+}
+
+@media screen and (min-width:600px) {
+
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body {
+        background: url(tonbouy.jpg) no-repeat fixed;
+        font-family: 'Dosis', sans-serif;
+        box-align: center;
+        font-size: 62.5%
+}
+
+h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 3em;
+}
+
+h1 {
+        text-align: center;
+        font-size: 4em;
+}
+
+article p {
+        text-align: center;
+        padding: 0.5%;
+        font-size: 4em;
+}
+
+
+nav ul {
+        text-align: center;
+        font-size: 0.5em;
+}
+
+nav ul li {
+        display: inline-block;
+        text-decoration: none;
+}
+
+nav a {
+        text-decoration: none;
+        font-size: 4.5em;
+        font-weight: bold;
+        color: black;
+        margin: 15px;
+        border-radius: 5px 5px 5px 5px;
+}
+section h2 {
+        margin-left: 3%;
+        font-size: 2.5em;
+}
+section h4 {
+        text-align: center;
+        font-size: 1.5em;
+}
+
+section p {
+        background-color: rgba(255, 255, 255, 0.9);
+        margin-left:10%; margin-right: 10%;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px solid black;
+        padding: 0.8%;
+        font-size: 2em;
+}
+
+.raccourcis ul {
+        font
+}
+
+.raccourcis a {
+        text-decoration: none;
+        margin: 0 auto;
+        color: #aa3939;
+        font-weight: bold;
+        font-size: 2.3em;
+
+}
+
+.body {
+        background-color: rgba(255, 255, 255, .4);
+        border-radius: 10px 10px 10px 10px;
+}
+
+.header {
+        border-radius: 15px 0 0 15px;
+        background-color: rgba(255, 255, 255, 0.25);
+}
+
+.info img {
+        float: right;
+        display: block;
+        margin: 15px;
+        border-radius: 3px 3px 3px 3px;
+        filter: sepia(1);
+        -webkit-filter: sepia(1);
+        -moz-filter: sepia(1);
+        -o-filter: sepia(1);
+        cursor: pointer;
+        -ms-filter: sepia(1);
+}
+
+.info img:hover {
+        filter: sepia(0);
+        -webkit-filter: sepia(0);
+        -moz-filter: sepia(0);
+        -o-filter: sepia(0);
+        -ms-filter: sepia(0);
+}
+
+#searchbar {
+        font-size: 1.5em;
+        position:relative;
+        width:auto;
+        height:auto;
+        float: right;
+}
+
+#searchbar.text {
+        width:auto;
+        height: auto;
+}
+
+#searchbar.champ {
+        width:auto;
+        height:auto;
+}
+
+#searchbar.bouton {
+        width:35px;
+        height:35px;
+        padding:0;
+        border:none;
+}
+
+div #img1 {
+          margin-left: 30%;
+          width : 40%;
+}
+
+#img1 {
+        text-align: center;
+        margin-left: 18% auto;
+        padding-left: 150px auto;
+}
+
+.block {
+        width: 0 auto;
+        position: fixed;
+        background-color: rgba(255, 255, 255, .3);
+        border-radius: 0 10px 10px 10px;
+}
+
+.block div {
+        display: inline-flex;
+        padding: 0 auto;
+        margin: 0 auto;
+}
+
+.menu .haut {
+        width: 0 auto;
+        position: fixed;
+        background-color: rgba(255, 255, 255, .3 );
+        border-radius: 15px 0 0 0;
+}
+
+.menu .haut:hover div{
+        left:auto;opacity:1;width:20%;;
+        transition:1s left,1s width,1s opacity;
+        padding-bottom: 2%;
+}
+.menu .haut div{
+        left:auto;opacity:0;width:15%;
+        transition:1s left,1s width,1s opacity;
+        padding-bottom: 2%;
+        text-align: center;
+}
+
+.menu .haut a:hover{
+        list-style : none;
+}
+
+.menu a {
+        list-style : none;
+        text-decoration: none;
+        font-family: 'Dosis', sans-serif;
+        color: black;
+        font-weight: bold;
+        font-size: 3.5em;
+}
+
+.menu h3 {
+        font-family: 'Dosis', sans-serif;
+        color: black;
+}
+
+.2nd header {
+        margin: 0 auto;
+        width: 100px;
+}
+
+.fleche {
+        position: fixed;
+        margin-top: 22%;
+        margin-left: 90%;
+        background-color: rgba(255, 255, 255, .3 );
+        border-radius: 50% 50% 50% 50%;
+        max-width:7%;
+        max-height:8%;
+}
+
+#copyright{
+        color: white;
+        margin-left: 3.52%;
+        margin-bottom : 10px;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Dosis', sans-serif;
+        padding-top: 2%;
+}
+
+}
+
+
+@media screen and  (min-width:900px) {
+
+
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
 
@@ -43,6 +489,7 @@ nav a {
 }
 section h2 {
         margin-left: 3%;
+        font-size: 1.8em;
 }
 section h4 {
         text-align: center;
@@ -192,7 +639,7 @@ section p {
 }
 #copyright{
         color: white;
-        margin-left: 30%;
+        margin-left: 20%;
         margin-bottom : 10px;
         font-size: 17px;
         font-weight: bold;
