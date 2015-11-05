@@ -1,262 +1,374 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Test</title>
-    </head>
-    <body id="cmd0">
-         <header>
-             <div class="2nd">
-               <div class="header">
-                 <div id="searchbar">
-                   <span class="text">Que voulez-vous rechercher ?</span>
-                   <form action="">
-                     <input class="champ" type="text" placeholder="Recherchez..."/>
-                     <input class="bouton" type="button" value="OK" />
-                   </form>
-                 </div>
-                 <div class="menu" style="width: 0  px;">
-                  <div class="haut">
-                         <a href="#">MENU</a>
-                         <div class="block">
-                           <br>
-                           <br>
-                           <div class="image"><a href="http://btlknajib.github.io/cheatsheetunix/"><img src="unix.png" width="55%" height="60%"/></a></div>
-                           <div class="image"><a href="http://btlknajib.github.io/cheatsheetlinux/"><img src="linux.png" width="55%" height="60%"/></a></div>
-                           <div class="image"><a href="http://btlknajib.github.io/cheatsheetvim/"><img src="vim.png" width="55%" height="60%"/></a></div>
-                           <div class="image"><a href="http://btlknajib.github.io/cheatsheetgit/"><img src="git.png" width="55%" height="60%"/></a></div>
-                         </div>
-                   </div>
-                 </div>
-                 <div id="img1">
-                   <a href="http://btlknajib.github.io/accueil/"><img src="cheatsheet.jpg" alt="imagetitre"/></a>
-                 </div>
-               </div>
-               <br>
-               <br>
-               <nav>
-                 <div>
-                 <ul id="menu">
-                   <li>
-                    <a href="http://btlknajib.github.io/accueil/">Accueil</a>
-                  </li>
 
-                  <li>
-                    <a href="http://btlknajib.github.io/cheatsheetunix/">Unix </a>
-                  </li>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Test</title>
+</head>
 
-                  <li>
-                    <a href="http://btlknajib.github.io/cheatsheetlinux/">Linux</a>
-                  </li>
+<body id="cmd0">
+  <header>
+    <div class="2nd">
+      <div class="header">
+        <div id="searchbar">
+          <span class="text">Que voulez-vous rechercher ?</span>
+          <form action="">
+            <input class="champ" type="text" placeholder="Recherchez..." />
+            <input class="bouton" type="button" value="OK" />
+          </form>
+        </div>
+        <div class="menu" style="width: 0  px;">
+          <div class="haut">
+            <a href="#">MENU</a>
+            <div class="block">
+              <br>
+              <br>
+              <div class="image">
+                <a href="http://btlknajib.github.io/cheatsheetunix/">
+                  <img src="unix.png" width="55%" height="60%" />
+                </a>
+              </div>
+              <div class="image">
+                <a href="http://btlknajib.github.io/cheatsheetlinux/">
+                  <img src="linux.png" width="55%" height="60%" />
+                </a>
+              </div>
+              <div class="image">
+                <a href="http://btlknajib.github.io/cheatsheetvim/">
+                  <img src="vim.png" width="55%" height="60%" />
+                </a>
+              </div>
+              <div class="image">
+                <a href="http://btlknajib.github.io/cheatsheetgit/">
+                  <img src="git.png" width="55%" height="60%" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="img1">
+          <a href="http://btlknajib.github.io/accueil/">
+            <img src="cheatsheet.jpg" alt="imagetitre" />
+          </a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <nav>
+        <div>
+          <ul id="menu">
+            <li>
+              <a href="http://btlknajib.github.io/accueil/">Accueil</a>
+            </li>
 
-                  <li>
-                   <a href="http://btlknajib.github.io/cheatsheetvim/">Vim </a>
-                  </li>
+            <li>
+              <a href="http://btlknajib.github.io/cheatsheetunix/">Unix </a>
+            </li>
 
-                  <li>
-                   <a href="http://btlknajib.github.io/cheatsheetgit/">Git & Github</a>
-                  </li>
-                </ul>
-                 </div>
-               </nav>
-             <br>
-             <br>
-           </div>
-           </header>
-           <a href="#cmd0"> <img class="fleche"src="fleche.png" alt="fleche"  width="5%" height="8%"/></a>
-     <br>
-     <br>
-     <br>
-     <div class="body">
-       <div class="raccourcis"><br>
-         <h1>VIM</h1>
-         <br>
-         <br>
-         <ul>
-             <li><a href="#cmd">Les commandes basiques.</a></li>
-             <li><a href="#cmd1">Les commandes de déplacement.</a></li>
-             <li><a href="#cmd2">Les commandes d'édition.</a></li>
-             <li><a href="#cmd3">Les commandes de recherche/remplacement.</a></li>
-             <li><a href="#cmd4">Fenêtrage.</a></li>
-             <li><a href="#cmd5">Configuration.</a></li><br>
-         </ul>
-       </div>
-     <section>
-       <br>
-       <br>
-          <h2 id="cmd">Commandes de base</h2>
-          <br>
-          <br>
+            <li>
+              <a href="http://btlknajib.github.io/cheatsheetlinux/">Linux</a>
+            </li>
 
-                    <p><strong>i</strong>	: Passer dans le mode insertion.</p>
-                    <p><strong> A</strong> 	: Ajouter en fin de ligne.</p>
-                    <p><strong>o</strong> : Ouvre une ligne en insertion en dessous de la position du curseur.</p>
-                    <p><strong>O</strong> : Ouvre une ligne en insertion au dessus de la position du curseur.</p>
-                    <p><strong>:q </strong>:	Quitter.</p>
-                    <p> <strong>:q!</strong> 	: Quitter sans enregistrer.</p>
-                    <p> <strong>:w </strong>:	Enregistrer le fichier.</p>
-                    <p> <strong>:wq</strong> :	Enregistrer et quitter.</p>
-                    <p><strong>:x</strong> :	Enregistrer (seulement en cas de modification) et quitter.</p>
-                    <p><strong>:v</strong> : Rentrer en mode visuel, le déplacement du curseur entraine une surlignation.<br> En mode visuel, taper "<strong>:</strong>" vous verrez apparaître <strong><','></strong>.<br>Taper <strong>wNOM_DE_FICHIER</strong> pour enregistrer les élements surlignés dans un fichier NOM_DE_FICHIER.</p>
-                    <p><strong>:!rm NOM_DE_FICHIER</strong> : Efface le fichier enregistré.</p>
-                    <p> <strong>:set paste</strong> :	Passer en mode "collage".</p>
-                    <p><strong>:!</strong> : Pour executer une commande externe.<br> <u>exemple</u> : <strong>:!ls</strong> ou <strong>:!pwd</strong>.</p>
+            <li>
+              <a href="http://btlknajib.github.io/cheatsheetvim/">Vim </a>
+            </li>
 
-          <br>
-          <br>
-          <h2 id="cmd1">Commandes de déplacement</h2>
-          <br>
-          <br>
+            <li>
+              <a href="http://btlknajib.github.io/cheatsheetgit/">Git & Github</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <br>
+      <br>
+    </div>
+  </header>
+  <a href="#cmd0">
+    <img class="fleche" src="fleche.png" alt="fleche" width="5%" height="8%" />
+  </a>
+  <br>
+  <br>
+  <br>
+  <div class="body">
+    <div class="raccourcis">
+      <br>
+      <h1>VIM</h1>
+      <br>
+      <br>
+      <ul>
+        <li><a href="#cmd">Les commandes basiques.</a></li>
+        <li><a href="#cmd1">Les commandes de déplacement.</a></li>
+        <li><a href="#cmd2">Les commandes d'édition.</a></li>
+        <li><a href="#cmd3">Les commandes de recherche/remplacement.</a></li>
+        <li><a href="#cmd4">Fenêtrage.</a></li>
+        <li><a href="#cmd5">Configuration.</a></li>
+        <br>
+      </ul>
+    </div>
+    <section>
+      <br>
+      <br>
+      <h2 id="cmd">Commandes de base</h2>
+      <br>
+      <br>
 
-                    <p><strong>k</strong> : commande de déplacement vers le haut.</p>
-                    <p><strong>l</strong> : commande de déplacement vers la droite.</p>
-                    <p><strong>j</strong> : commande de déplacement vers le bas.</p>
-                    <p><strong>h</strong> : commande de déplacement vers la gauche.</p>
-                    <p><strong>$</strong> : commande de déplacement jusqu'à la fin de la ligne.</p>
-                    <p><strong>e</strong> : commande de déplacement jusqu'à la fin du mot en excluant le dernier caractère.</p>
-                    <p><strong>w</strong> : commande de déplacement jusqu'au début du prochain mot.</p>
-                    <p><strong>&lt;control&gt;-G</strong> : Donne le numéro de la ligne.</p>
-                    <p><strong>G</strong> : commande de déplacement à la dernière ligne du fichier.</p>
-                    <p><strong>gg</strong> : commande de déplacement au début du fichier.</p>
-                    <p><strong>XG</strong> : commande de déplacement à la ligne X. X étant une variable.</p>
-                    <p><strong>Remarque</strong> : Taper un nombre avant un mouvement le repete autant de fois que le nombre l'indique.</p>
+      <p>
+        <strong>i</strong> : Passer dans le mode insertion.</p>
+      <p>
+        <strong> A</strong> : Ajouter en fin de ligne.</p>
+      <p>
+        <strong>o</strong> : Ouvre une ligne en insertion en dessous de la position du curseur.</p>
+      <p>
+        <strong>O</strong> : Ouvre une ligne en insertion au dessus de la position du curseur.</p>
+      <p>
+        <strong>:q </strong>: Quitter.</p>
+      <p>
+        <strong>:q!</strong> : Quitter sans enregistrer.</p>
+      <p>
+        <strong>:w </strong>: Enregistrer le fichier.</p>
+      <p>
+        <strong>:wq</strong> : Enregistrer et quitter.</p>
+      <p>
+        <strong>:x</strong> : Enregistrer (seulement en cas de modification) et quitter.</p>
+      <p>
+        <strong>:v</strong> : Rentrer en mode visuel, le déplacement du curseur entraine une surlignation.
+        <br> En mode visuel, taper "
+        <strong>:</strong>" vous verrez apparaître
+        <strong>
+          < ','>
+        </strong>.
+        <br>Taper
+        <strong>wNOM_DE_FICHIER</strong> pour enregistrer les élements surlignés dans un fichier NOM_DE_FICHIER.</p>
+      <p>
+        <strong>:!rm NOM_DE_FICHIER</strong> : Efface le fichier enregistré.</p>
+      <p>
+        <strong>:set paste</strong> : Passer en mode "collage".</p>
+      <p>
+        <strong>:!</strong> : Pour executer une commande externe.
+        <br> <u>exemple</u> :
+        <strong>:!ls</strong> ou
+        <strong>:!pwd</strong>.</p>
 
+      <br>
+      <br>
+      <h2 id="cmd1">Commandes de déplacement</h2>
+      <br>
+      <br>
 
-          <br>
-          <br>
-          <h2 id="cmd2">Commandes d'édition</h2>
-          <br>
-          <br>
-
-                    <p><strong>a</strong> : Ajouter un mot après le curseur.</p>
-                    <p><strong>u</strong> 	: Annuler la dernière opération.</p>
-                    <p><strong>.</strong> 	: Répéter la dernière opération d'édition.</p>
-                    <p><strong>yy</strong> 	: Copier la ligne (4yy = 4 lignes).</p>
-                    <p><strong>dd</strong> 	: Couper la ligne (4dd = 4 lignes).</p>
-                    <p><strong>p</strong> 	: Coller après (P = insérer avant).</p>
-                    <p><strong>x</strong> :	Effacer le caractère.</p>
-                    <p><strong>dw</strong> 	: Effacer le texte jusqu'à la fin du mot.</p>
-                    <p><strong>diw</strong> :	Effacer le mot sous le curseur. </p>
-                    <p><strong>d$</strong> : coupe la phrase après le curseur.</p>
-                    <p><strong>u</strong> : annule les dernières commandes.</p>
-                    <p><strong>U</strong> : remettre la ligne à son état initiale.</p>
-                    <p><strong>p</strong> : coller une ligne ou un mot qui a été couper, sur le curseur.</p>
-                    <p><strong>rX</strong> : déplace le curseur sur une lettre à modifié, X représentant une variable.</p>
-                    <p><strong>cc</strong> : efface le mot(groupe de caractères) sous le cureur, passe en mode insertion.</p>
-                    <p><strong>&lt;control&gt;-r</strong> :	Rétablir la dernière opération annulée.</p>
-                    <p><strong>Remarque</strong> : Taper un nombre avant le mouvement le repete autant de fois que le nombre l'indique.</p>
-
-
-
-           <br>
-           <br>
-           <h2 id="cmd3">Commandes de recherche/remplacement</h2>
-           <br>
-           <br>
-
-                    <p><strong>/</strong>	: Rechercher du texte vers l'avant.</p>
-                    <p><strong>?</strong> : Rechercher du texte vers l'arrière.</p>
-                    <p><strong>n</strong>	: Rechercher l'occurence suivante.</p>
-                    <p><strong>N</strong>	: Rechercher l'occurence précédente.</p>
-                    <p><strong>cw</strong> 	: Remplacer le texte jusqu'à la fin du mot.</p>
-                    <p><strong>ciw </strong>	: Remplacer le mot.</p>
-                    <p><strong>C</strong> 	: Remplacer jusqu'en fin de ligne.</p>
-                    <p><strong>R</strong> : Remplace plus d'un caractère.</p>
-                    <p><strong>.</strong>	: Répéter la dernière opération d'édition.</p>
-                    <p><strong>:s/A/B</strong> : Remplacer A en B sur la première occurance de la ligne.</p>
-                    <p><strong>:s/A/B/g</strong>	: Remplacer tous (g) les A par des B.</p>
-                    <p><strong>#,#s/A/B/g</strong> : Remplacer A par B entre deux ligne. # est une variable prenant le numéro de la ligne.</p>
-                    <p><strong>%s/A/B/g</strong> : Remplacer A par B dans tout le fichier.</p>
-                    <p><strong>%s/A/B/gc</strong> : Remplacer A par B dans tout le fichier mais demande confirmation à chaque fois.</p>
-
-
-           <br>
-           <br>
-           <h2 id="cmd4">Fenêtrage</h2>
-           <br>
-           <br>
-
-                    <p><strong>&lt;control-w&gt;-n</strong> :	Ouvrir un fichier vierge dans une nouvelle fenêtre</p>
-                    <p><strong>&lt;control-w&gt;-s</strong> :	Diviser horizontalement</p>
-                    <p><strong>&lt;control-w&gt;-v </strong>:	Diviser verticalement</p>
-                    <p><strong>&lt;control-w&gt;-w</strong> :	Passer à la fenêtre suivante</p>
-                    <p><strong>&lt;control-w&gt;-q</strong> :	Fermer la fenêtre</p>
+      <p>
+        <strong>k</strong> : commande de déplacement vers le haut.</p>
+      <p>
+        <strong>l</strong> : commande de déplacement vers la droite.</p>
+      <p>
+        <strong>j</strong> : commande de déplacement vers le bas.</p>
+      <p>
+        <strong>h</strong> : commande de déplacement vers la gauche.</p>
+      <p>
+        <strong>$</strong> : commande de déplacement jusqu'à la fin de la ligne.</p>
+      <p>
+        <strong>e</strong> : commande de déplacement jusqu'à la fin du mot en excluant le dernier caractère.</p>
+      <p>
+        <strong>w</strong> : commande de déplacement jusqu'au début du prochain mot.</p>
+      <p>
+        <strong>&lt;control&gt;-G</strong> : Donne le numéro de la ligne.</p>
+      <p>
+        <strong>G</strong> : commande de déplacement à la dernière ligne du fichier.</p>
+      <p>
+        <strong>gg</strong> : commande de déplacement au début du fichier.</p>
+      <p>
+        <strong>XG</strong> : commande de déplacement à la ligne X. X étant une variable.</p>
+      <p>
+        <strong>Remarque</strong> : Taper un nombre avant un mouvement le repete autant de fois que le nombre l'indique.</p>
 
 
-           <br>
-           <br>
-           <h2 id="cmd5">Configuration</h2>
-           <br>
-           <br>
+      <br>
+      <br>
+      <h2 id="cmd2">Commandes d'édition</h2>
+      <br>
+      <br>
 
-                    <p><strong>set nocompatible</strong>
+      <p>
+        <strong>a</strong> : Ajouter un mot après le curseur.</p>
+      <p>
+        <strong>u</strong> : Annuler la dernière opération.</p>
+      <p>
+        <strong>.</strong> : Répéter la dernière opération d'édition.</p>
+      <p>
+        <strong>yy</strong> : Copier la ligne (4yy = 4 lignes).</p>
+      <p>
+        <strong>dd</strong> : Couper la ligne (4dd = 4 lignes).</p>
+      <p>
+        <strong>p</strong> : Coller après (P = insérer avant).</p>
+      <p>
+        <strong>x</strong> : Effacer le caractère.</p>
+      <p>
+        <strong>dw</strong> : Effacer le texte jusqu'à la fin du mot.</p>
+      <p>
+        <strong>diw</strong> : Effacer le mot sous le curseur. </p>
+      <p>
+        <strong>d$</strong> : coupe la phrase après le curseur.</p>
+      <p>
+        <strong>u</strong> : annule les dernières commandes.</p>
+      <p>
+        <strong>U</strong> : remettre la ligne à son état initiale.</p>
+      <p>
+        <strong>p</strong> : coller une ligne ou un mot qui a été couper, sur le curseur.</p>
+      <p>
+        <strong>rX</strong> : déplace le curseur sur une lettre à modifié, X représentant une variable.</p>
+      <p>
+        <strong>cc</strong> : efface le mot(groupe de caractères) sous le cureur, passe en mode insertion.</p>
+      <p>
+        <strong>&lt;control&gt;-r</strong> : Rétablir la dernière opération annulée.</p>
+      <p>
+        <strong>Remarque</strong> : Taper un nombre avant le mouvement le repete autant de fois que le nombre l'indique.</p>
 
-                        :	Désactive la compatibilité avec vi</p>
 
-                    <p><strong>set background=dark</strong>
 
-                        :	adapte les couleurs pour un fond noir</p>
+      <br>
+      <br>
+      <h2 id="cmd3">Commandes de recherche/remplacement</h2>
+      <br>
+      <br>
 
-                    <p><strong>syntax on</strong>
+      <p>
+        <strong>/</strong> : Rechercher du texte vers l'avant.</p>
+      <p>
+        <strong>?</strong> : Rechercher du texte vers l'arrière.</p>
+      <p>
+        <strong>n</strong> : Rechercher l'occurence suivante.</p>
+      <p>
+        <strong>N</strong> : Rechercher l'occurence précédente.</p>
+      <p>
+        <strong>cw</strong> : Remplacer le texte jusqu'à la fin du mot.</p>
+      <p>
+        <strong>ciw </strong> : Remplacer le mot.</p>
+      <p>
+        <strong>C</strong> : Remplacer jusqu'en fin de ligne.</p>
+      <p>
+        <strong>R</strong> : Remplace plus d'un caractère.</p>
+      <p>
+        <strong>.</strong> : Répéter la dernière opération d'édition.</p>
+      <p>
+        <strong>:s/A/B</strong> : Remplacer A en B sur la première occurance de la ligne.</p>
+      <p>
+        <strong>:s/A/B/g</strong> : Remplacer tous (g) les A par des B.</p>
+      <p>
+        <strong>#,#s/A/B/g</strong> : Remplacer A par B entre deux ligne. # est une variable prenant le numéro de la ligne.</p>
+      <p>
+        <strong>%s/A/B/g</strong> : Remplacer A par B dans tout le fichier.</p>
+      <p>
+        <strong>%s/A/B/gc</strong> : Remplacer A par B dans tout le fichier mais demande confirmation à chaque fois.</p>
 
-                        :	Active la coloration syntaxique</p>
 
-                    <p><strong>set number</strong>
+      <br>
+      <br>
+      <h2 id="cmd4">Fenêtrage</h2>
+      <br>
+      <br>
 
-                        :	Affiche les numéros de lignes</p>
+      <p>
+        <strong>&lt;control-w&gt;-n</strong> : Ouvrir un fichier vierge dans une nouvelle fenêtre</p>
+      <p>
+        <strong>&lt;control-w&gt;-s</strong> : Diviser horizontalement</p>
+      <p>
+        <strong>&lt;control-w&gt;-v </strong>: Diviser verticalement</p>
+      <p>
+        <strong>&lt;control-w&gt;-w</strong> : Passer à la fenêtre suivante</p>
+      <p>
+        <strong>&lt;control-w&gt;-q</strong> : Fermer la fenêtre</p>
 
-                    <p><strong>set tabstop=4</strong>
 
-                        :	Indentation toutes les quatre colonnes</p>
+      <br>
+      <br>
+      <h2 id="cmd5">Configuration</h2>
+      <br>
+      <br>
 
-                    <p><strong>set expandtab</strong>
+      <p>
+        <strong>set nocompatible</strong>
 
-                        :	Conversion des tabulations en espaces</p>
+        : Désactive la compatibilité avec vi</p>
 
-                    <p><strong>set shiftwidth=4</strong>
+      <p>
+        <strong>set background=dark</strong>
 
-                        :	Indentation de quatre colonnes</p>
+        : adapte les couleurs pour un fond noir</p>
 
-                    <p><strong>set smartindent</strong>
+      <p>
+        <strong>syntax on</strong>
 
-                        :	Indentation "intelligents"</p>
+        : Active la coloration syntaxique</p>
 
-                    <p><strong>set autoindent</strong>
+      <p>
+        <strong>set number</strong>
 
-                        :	Conserve l'indentation courante sur les nouvelles lignes</p>
+        : Affiche les numéros de lignes</p>
 
-                    <p><strong>set backspace=indent,eol,start</strong>
+      <p>
+        <strong>set tabstop=4</strong>
 
-                        :	retours arrières intelligents</p>
+        : Indentation toutes les quatre colonnes</p>
 
-                    <p><strong>set shiftround</strong>
+      <p>
+        <strong>set expandtab</strong>
 
-                        :	Indentation à la marque de Tab la plus proche</p>
+        : Conversion des tabulations en espaces</p>
 
-                    <p><strong>set ignorecase</strong>
+      <p>
+        <strong>set shiftwidth=4</strong>
 
-                        :	Ignore la casse lors de recherche</p>
+        : Indentation de quatre colonnes</p>
 
-                    <p><strong>set showmode</strong>
+      <p>
+        <strong>set smartindent</strong>
 
-                        :	affiche le mode d'édition</p>
+        : Indentation "intelligents"</p>
 
-                    <p><strong>set ruler</strong>
+      <p>
+        <strong>set autoindent</strong>
 
-                        :	affiche la position du curseur</p>
+        : Conserve l'indentation courante sur les nouvelles lignes</p>
 
-                    <p><strong>set showcmd</strong>
+      <p>
+        <strong>set backspace=indent,eol,start</strong>
 
-                        :	affiche les commandes incomplète</p>
+        : retours arrières intelligents</p>
 
-                    <p><strong>map &lt;C-m&gt; :resize</strong>
+      <p>
+        <strong>set shiftround</strong>
 
-                        :	Ctrl-m maximize la fenetre courrante (:help map)</p>
+        : Indentation à la marque de Tab la plus proche</p>
 
-                    <p><strong>map &lt;C-b&gt; :bNext</strong>
+      <p>
+        <strong>set ignorecase</strong>
 
-                        :	Ctrl-b aller au tampon suivant (:help map)</p>
+        : Ignore la casse lors de recherche</p>
+
+      <p>
+        <strong>set showmode</strong>
+
+        : affiche le mode d'édition</p>
+
+      <p>
+        <strong>set ruler</strong>
+
+        : affiche la position du curseur</p>
+
+      <p>
+        <strong>set showcmd</strong>
+
+        : affiche les commandes incomplète</p>
+
+      <p>
+        <strong>map &lt;C-m&gt; :resize</strong>
+
+        : Ctrl-m maximize la fenetre courrante (:help map)</p>
+
+      <p>
+        <strong>map &lt;C-b&gt; :bNext</strong>
+
+        : Ctrl-b aller au tampon suivant (:help map)</p>
 
       <br>
       <br>
@@ -264,14 +376,23 @@
 
     </section>
   </div>
-    <footer>
-      <div class="footer">
-        <div class="info">
-          <div class="fb"><a href="https://www.facebook.com/najib.benidi"><img src="fb.png" width="30px" height="30px"/></a></div>
-          <div class="contact"><a href=""><img src="courier.png" width="30px" height="30px"/></a></div>
-          <div id="copyright">Cheatsheet.html | copyright© 2015 | Propulsé par Riendutout | réalisé par Najib Btlk</div>
+  <footer>
+    <div class="footer">
+      <div class="info">
+        <div class="fb">
+          <a href="https://www.facebook.com/najib.benidi">
+            <img src="fb.png" width="30px" height="30px" />
+          </a>
         </div>
+        <div class="contact">
+          <a href="">
+            <img src="courier.png" width="30px" height="30px" />
+          </a>
+        </div>
+        <div id="copyright">Cheatsheet.html | copyright© 2015 | Propulsé par Riendutout | réalisé par Najib Btlk</div>
       </div>
-     </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
