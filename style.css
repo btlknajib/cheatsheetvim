@@ -201,7 +201,6 @@ section
 .image img
 {
       margin-top: 35px;
-      border: ;
 }
 
 h2
@@ -227,7 +226,7 @@ footer
     margin: auto;
     height: 200px;
     background-color: #FF6600;
-    border-radius: 20px 0px 20px 20px;
+    border-radius: 50px 0px 0px 50px;
 }
 
 footer .info
